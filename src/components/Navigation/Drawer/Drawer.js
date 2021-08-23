@@ -28,9 +28,6 @@ class Drawer extends Component {
                     activeClassName={style.active}
                     onClick={this.clickHandler}
                  > 
-
-
-                 
                     {link.label} 
                 </NavLink>
 
