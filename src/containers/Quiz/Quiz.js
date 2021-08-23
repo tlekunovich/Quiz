@@ -103,8 +103,7 @@ async componentDidMount(){
                         quiz={this.state.quiz}
                         onRetry={this.retryHandler}
                         />
-                        
-                        :
+                                        :
                         <ActiveQuiz 
                         answers = {this.state.quiz[this.state.activeQuestion].answers}
                         question={this.state.quiz[this.state.activeQuestion].question}
